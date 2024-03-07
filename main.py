@@ -59,7 +59,7 @@ so_database
 
 
 # Semantic search
-query = ['How to run javascript code?']
+query = ['How to concat dataframes pandas']
 query_embedding = embedding_model.get_embeddings(query)[0].values
 
 # Cosine similarity might be replaced with approximate nearest neighbor search
